@@ -9,9 +9,9 @@ This tutorial will not try to cover the entire topic of sockets. There are tutor
 ## Programming with TCP/IP sockets
 There are a few steps involved in using sockets:
 
-*Create the socket.
-*Identify the socket.
-*On the server, wait for an incoming connection.
-*On the client, connect to the server's socket.
-*Send and receive messages.
-*Close the socket.
+- Create the socket.
+- Identify the socket.
+- On the server, wait for an incoming connection.
+- On the client, connect to the server's socket.
+- Send and receive messages.
+- Close the socket.
