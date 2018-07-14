@@ -13,3 +13,13 @@ There are a few steps involved in using sockets:
 - On the client, connect to the server's socket.
 - Send and receive messages.
 - Close the socket.
+
+## Prerequisites
+
+- Basic Understanding of the C Programming language.
+- Basic Knowledge of a Linux command line, editing text files on a linux system.
+
+## Setup Enviornment
+
+- Debian 7 Linux Machine or Windows System With GCC Compiler.
+- Vim or Code Editor for Editing C Code.
