@@ -4,7 +4,7 @@ A socket is the mechanism that most popular operating systems provide to give pr
 
 The sockets mechanism has been created to be independent of any specific type of network. IP, however, is by far the most dominant network and the most popular use of sockets. This tutorial provides an introduction to using sockets over the IP network (IPv4).
 
-## Programming with TCP/IP sockets
+## Topics TCP/IP sockets
 There are a few steps involved in using sockets:
 
 - Create the socket.
