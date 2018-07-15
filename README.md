@@ -34,7 +34,7 @@ The client socket is created with a socket() call, and the connected to aremote 
 
 ## Server Socket Workflow
 
-On the "Server" end of the socket, we need to also create a socket with a socket() call, but then, we need to bind() that socket IP and port whrer it can then listen() for connections, and then finally accept() a connection and then send() or recv data to the other sockets it has connected to.
+On the "Server" end of the socket, we need to also create a socket with a socket() call, but then, we need to bind() that socket IP and port whrer it can then listen() for connections, and then finally accept() a connection and then send() or recv() data to the other sockets it has connected to.
 
 > socket() ------->  bind() -------> listen() -------> accept()
 
