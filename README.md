@@ -36,7 +36,11 @@ There are a few steps involved in using sockets:
 
 ## Server Socket Workflow
 
-On the "Server" end of the socket, we need to also create a socket with a socket() call, but then, we need to bind() that socket IP and port whrer it can then listen() for connections, and then finally accept() a connection and then send() or recv() data to the other sockets it has connected to.
+* Create a socket with the socket() function;
+* Bind the socket to an address using the bind() function;
+* Listen for connections with the listen() function;
+* Accept a connection with the accept() function system call. This call typically blocks until a client connects with the server.
+* Send and receive data by means of send() and receive().
 
 > socket() ------->  bind() -------> listen() -------> accept()
 
