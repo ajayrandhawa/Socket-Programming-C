@@ -34,8 +34,10 @@ There are a few steps involved in using sockets:
 
 > socket() ------->  bind() -------> listen() -------> accept()
 
-### Socket() Function
-Specifying the type of communication protocol (TCP based on IPv4, TCP based on IPv6, UDP).
+| Function  | Description |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## HTTP Client 
 
