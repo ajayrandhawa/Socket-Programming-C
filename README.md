@@ -1,4 +1,4 @@
-## Socket-Programming-C
+# Socket-Programming-C
 
 A socket is the mechanism that most popular operating systems provide to give programs access to the network. It allows messages to be sent and received between applications (unrelated processes) on different networked machines.
 
@@ -6,7 +6,7 @@ Sockets are the low level endpoint used for processing information across a netw
 
 The sockets mechanism has been created to be independent of any specific type of network. IP, however, is by far the most dominant network and the most popular use of sockets. This tutorial provides an introduction to using sockets over the IP network (IPv4).
 
-## Topics TCP/IP sockets
+# Topics TCP/IP sockets
 There are a few steps involved in using sockets:
 
 - Create the socket.
@@ -16,7 +16,7 @@ There are a few steps involved in using sockets:
 - Send and receive messages.
 - Close the socket.
 
-## Client Socket Workflow
+### Client Socket Workflow
 
 * Create a socket using the socket() function;
 * Connect the socket to the address of the server using the connect() function;
@@ -24,7 +24,7 @@ There are a few steps involved in using sockets:
 
 > socket() ------->  connect() -------> recv()
 
-## Server Socket Workflow
+### Server Socket Workflow
 
 * Create a socket with the socket() function;
 * Bind the socket to an address using the bind() function;
@@ -34,7 +34,7 @@ There are a few steps involved in using sockets:
 
 > socket() ------->  bind() -------> listen() -------> accept()
 
-# Socket() Function
+### Socket() Function
 Specifying the type of communication protocol (TCP based on IPv4, TCP based on IPv6, UDP).
 
 ## HTTP Client 
