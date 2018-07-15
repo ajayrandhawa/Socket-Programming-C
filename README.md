@@ -2,6 +2,8 @@
 
 A socket is the mechanism that most popular operating systems provide to give programs access to the network. It allows messages to be sent and received between applications (unrelated processes) on different networked machines.
 
+Sockets are the low level endpoint used for processing information across a network. common networking protocols like HTTP, and FTP rely on  sockets underneath to make connections.
+
 The sockets mechanism has been created to be independent of any specific type of network. IP, however, is by far the most dominant network and the most popular use of sockets. This tutorial provides an introduction to using sockets over the IP network (IPv4).
 
 ## Topics TCP/IP sockets
@@ -24,6 +26,13 @@ There are a few steps involved in using sockets:
 - Debian 7 Linux Machine or Windows System With GCC Compiler.
 - Vim or Code Editor for Editing C Code.
 
+## Client Socket Workflow
+
+The client socket is created with a socket() call, and the connected to aremote address with the connect() call,  and then finally can retrieve data with the recv() call.
+
+```
+<center>socket() ------->  connect() -------> recv()</center>
+```
 ## HTTP Client 
 
 ```
