@@ -6,6 +6,7 @@ Sockets are the low level endpoint used for processing information across a netw
 
 The sockets mechanism has been created to be independent of any specific type of network. IP, however, is by far the most dominant network and the most popular use of sockets. This tutorial provides an introduction to using sockets over the IP network (IPv4).
 
+<img src="image.png" />
 # Topics TCP/IP sockets
 There are a few steps involved in using sockets:
 
