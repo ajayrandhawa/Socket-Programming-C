@@ -1,4 +1,4 @@
-## Socket-Programing-C
+## Socket-Programming-C
 
 A socket is the mechanism that most popular operating systems provide to give programs access to the network. It allows messages to be sent and received between applications (unrelated processes) on different networked machines.
 
@@ -32,9 +32,11 @@ The client socket is created with a socket() call, and the connected to aremote 
 
 > socket() ------->  connect() -------> recv()
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+## Server Socket Workflow
+
+On the "Server" end of the socket, we need to also create a socket with a socket() call, but then, we need to bind() that socket IP and port whrer it can then listen() for connections, and then finally accept() a connection and then send() or recv data to the other sockets it has connected to.
+
+> socket() ------->  bind() -------> listen() -------> accept()
 
 ## HTTP Client 
 
