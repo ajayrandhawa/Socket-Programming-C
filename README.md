@@ -39,7 +39,6 @@ There are a few steps involved in using sockets:
 | Function  | Description |
 | ------------- | ------------- |
 | socket()  | Specifying the type of communication protocol (TCP based on IPv4, TCP based on IPv6, UDP). Where family specifies the protocol family (AF_INET for the IPv4 protocols), type is a constant described the type of socket (SOCK_STREAM for stream sockets and SOCK_DGRAM for datagram sockets.The function returns a non-negative integer number, similar to a file descriptor, that we define socket descriptor or -1 on error. |
-
 | connect()  | Function is used by a TCP client to establish a connection with a TCP server. where sockfd is the socket descriptor returned by the socket function.The function returns 0 if the it succeeds in establishing a connection (i.e., successful TCP three-way handshake, -1 otherwise.The client does not have to call bind() in Section before calling this function: the kernel will choose both an ephemeral port and the source IP if necessary.  |
 
 ## HTTP Client 
