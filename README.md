@@ -28,7 +28,9 @@ There are a few steps involved in using sockets:
 
 ## Client Socket Workflow
 
-The client socket is created with a socket() call, and the connected to aremote address with the connect() call,  and then finally can retrieve data with the recv() call.
+* Create a socket using the socket() function;
+* Connect the socket to the address of the server using the connect() function;
+* Send and receive data by means of the read() and write() functions.
 
 > socket() ------->  connect() -------> recv()
 
