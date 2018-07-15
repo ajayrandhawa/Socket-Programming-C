@@ -36,7 +36,8 @@ There are a few steps involved in using sockets:
 
 | Function  | Description |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| socket()  | Specifying the type of communication protocol (TCP based on IPv4, TCP based on IPv6, UDP). Where family specifies the protocol family (AF_INET for the IPv4 protocols), type is a constant described the type of socket (SOCK_STREAM for stream sockets and SOCK_DGRAM for datagram sockets.The function returns a non-negative integer number, similar to a file descriptor, that we define socket descriptor or -1 on error. |
+
 | Content Cell  | Content Cell  |
 
 ## HTTP Client 
