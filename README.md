@@ -30,9 +30,10 @@ There are a few steps involved in using sockets:
 
 The client socket is created with a socket() call, and the connected to aremote address with the connect() call,  and then finally can retrieve data with the recv() call.
 
-```
-<center>socket() ------->  connect() -------> recv()</center>
-```
+> socket() ------->  connect() -------> recv()
+
+| First Header  | Second Header |
+
 ## HTTP Client 
 
 ```
