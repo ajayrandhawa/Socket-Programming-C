@@ -16,16 +16,6 @@ There are a few steps involved in using sockets:
 - Send and receive messages.
 - Close the socket.
 
-## Prerequisites
-
-- Basic Understanding of the C Programming language.
-- Basic Knowledge of a Linux command line, editing text files on a linux system.
-
-## Setup Enviornment
-
-- Debian 7 Linux Machine or Windows System With GCC Compiler.
-- Vim or Code Editor for Editing C Code.
-
 ## Client Socket Workflow
 
 * Create a socket using the socket() function;
@@ -43,6 +33,9 @@ There are a few steps involved in using sockets:
 * Send and receive data by means of send() and receive().
 
 > socket() ------->  bind() -------> listen() -------> accept()
+
+# Socket() Function
+Specifying the type of communication protocol (TCP based on IPv4, TCP based on IPv6, UDP).
 
 ## HTTP Client 
 
